@@ -4,6 +4,7 @@ spec = Gem::Specification.new do |s|
   s.author = "Chris Kite"
   s.homepage = "https://github.com/mindeavor/jimson.git"
   s.platform = Gem::Platform::RUBY
+  s.licenses = ["MIT"]
   s.summary = "JSON-RPC 2.0 client and server"
   s.require_path = "lib"
   s.has_rdoc = false
