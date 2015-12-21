@@ -12,7 +12,7 @@ spec = Gem::Specification.new do |s|
   s.add_dependency("blankslate", ">= 3.1.2")
   s.add_dependency("rest-client", "~> 1.0")
   s.add_dependency("multi_json", "~> 1.0")
-  s.add_dependency("rack", "~> 1.4")
+  s.add_dependency("rack", "> 1.4", "< 3")
 
   s.files = %w[
     VERSION
